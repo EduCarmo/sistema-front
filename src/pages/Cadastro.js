@@ -48,7 +48,7 @@ function Cadastrar() {
                 Cancelar
               </Button>
               <Button variant="-light" className="w-100 text-primary border border-primary "
-              as={Link} to="/login"
+              as={Link} to="/"
               >
                 Entrar Agora
               </Button>

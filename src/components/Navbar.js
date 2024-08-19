@@ -10,14 +10,14 @@ function NavbarComponent() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary shadow-sm">
       <Container>
-        <Navbar.Brand as={Link} to="/" className="fw-bold text-primary">
+        <Navbar.Brand as={Link} to="/home" className="fw-bold text-primary">
           Nome do Sistema
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar-nav" />
         <Navbar.Collapse id="navbar-nav">
           <Nav className="ms-auto">
 
-            <Nav.Link as={Link} to="/" className="me-2">Home</Nav.Link>
+            <Nav.Link as={Link} to="/home" className="me-2">Home</Nav.Link>
 
             <NavDropdown title="Movimentações" id="movimentacoes-nav-dropdown" className="me-2">
               <NavDropdown.Item as={Link} to="/entradas">Entradas</NavDropdown.Item>
