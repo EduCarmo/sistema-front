@@ -6,8 +6,11 @@ import Pagamentos from './pages/Pagamentos';
 import Entradas from './pages/Entradas';
 import Saidas from './pages/Saidas';
 import Relatorios from './pages/Relatorios';
+import Login from './pages/Login';
+import Cadastrar from './pages/Cadastro';
 
 import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom';
+
 
 function App() {
   return (
@@ -19,6 +22,8 @@ function App() {
         <Route path="/entradas" element={<Entradas />} />
         <Route path="/saidas" element={<Saidas />} />
         <Route path="/relatorios" element={<Relatorios />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/cadastro" element={<Cadastrar />} />
       </Routes>
     </Router>
   );
